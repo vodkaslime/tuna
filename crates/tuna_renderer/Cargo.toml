@@ -1,0 +1,10 @@
+[package]
+name = "tuna_renderer"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+bevy.workspace = true
+ab_glyph = "0.2"
+
+tuna_terminal_core = { path = "../tuna_terminal_core" }

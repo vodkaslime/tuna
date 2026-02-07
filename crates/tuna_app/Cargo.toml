@@ -1,0 +1,16 @@
+[package]
+name = "tuna_app"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+bevy.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+
+tuna_terminal_core = { path = "../tuna_terminal_core" }
+tuna_renderer = { path = "../tuna_renderer" }
+tuna_platform = { path = "../tuna_platform" }
+tuna_config = { path = "../tuna_config" }
+tuna_theme = { path = "../tuna_theme" }

@@ -1,0 +1,26 @@
+[workspace]
+resolver = "2"
+members = [
+  "crates/tuna_app",
+  "crates/tuna_terminal_core",
+  "crates/tuna_renderer",
+  "crates/tuna_platform",
+  "crates/tuna_config",
+  "crates/tuna_theme",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
+[workspace.dependencies]
+anyhow = "1"
+bevy = "0.14"
+crossbeam-channel = "0.5"
+parking_lot = "0.12"
+portable-pty = "0.8"
+serde = { version = "1", features = ["derive"] }
+thiserror = "2"
+toml = "0.8"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }

@@ -1,0 +1,6 @@
+[package]
+name = "tuna_theme"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
